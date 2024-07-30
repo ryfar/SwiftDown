@@ -15,10 +15,7 @@ let package = Package(
       targets: ["SwiftDown"])
   ],
   dependencies: [
-    .package(
-      url: "https://github.com/johnxnguyen/Down.git",
-      from: "0.11.0"
-    ),
+    .package(url: "https://github.com/ryfar/Down.git", .upToNextMajor(from: "0.11.0")),
     .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "9.0.0")),
   ],
   targets: [
